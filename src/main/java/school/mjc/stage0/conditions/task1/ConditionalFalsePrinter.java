@@ -4,8 +4,7 @@ public class ConditionalFalsePrinter {
     public static void main(String[] args) {
         if (false) {
             System.out.println(true);
-        }
-        else {
+        } else {
             System.out.println(false);
         }
     }

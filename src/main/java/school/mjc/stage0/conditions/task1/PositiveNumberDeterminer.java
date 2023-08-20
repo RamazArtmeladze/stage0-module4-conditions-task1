@@ -8,11 +8,4 @@ public class PositiveNumberDeterminer {
             System.out.println(false);
         }
     }
-
-    public static void main(String[] args) {
-        PositiveNumberDeterminer determiner = new PositiveNumberDeterminer();
-        determiner.isPositive(5); // Output will be "true"
-        determiner.isPositive(-3); // Output will be "false"
-        determiner.isPositive(0); // Output will be "false"
-    }
 }
